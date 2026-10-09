@@ -245,11 +245,7 @@ details.card summary{cursor:pointer}
 </header>
 <nav class="tabs"><div class="wrap" id="tabs"></div></nav>
 <main><div class="wrap" id="app"></div></main>
-<footer><div class="wrap">
-  <b>全民補習班 歷史科</b>｜考點依據：臺中向上、崇德，臺南復興，基隆銘傳，新北中平、五峰、崇林、板橋、永和、福和、蘆洲、錦和，花蓮美崙，高雄五甲、五福、大社、左營、獅甲、鼎金，共 19 校康軒版 114 學年上學期第一次段考試卷（另參考他版 37 校共通考點）。模擬題全部為原創改寫，只參考各校命題方向與陷阱。<br>
-  名詞、年代、人名、地名依 115 學年康軒國中歷史 3 上課本。答對、答錯都有音效；背景音樂只在「動畫導覽」播放，可按右下角按鈕關閉。<br>
-  交卷時會把你的姓名、分數與錯題傳給老師。左下角 ✏️ 可以手寫、兩指縮放。<br>
-  <details style="margin-top:8px"><summary>圖片來源與授權</summary>
+<footer><div class="wrap"><details style="margin-top:8px"><summary>圖片來源與授權</summary>
   照片與古畫皆來自 Wikimedia Commons（CC0／公有領域／CC BY／CC BY-SA），未使用 AI 生成圖：Sumerian Cuneiform Clay Tablet (27673705074)：Gary Todd from Xinzheng, China（CC0）；Zoroastrian Fire Temple, Yazd 01：Bernard Gagnon（CC BY-SA 4.0）；Code of Hammurabi Louvre Museum：Gil Dbd（CC BY-SA 4.0）；Wall inscriptions at Karnak Temple Complex in Luxor, Egypt - IMG 7842 (33825908220)：je_blanco（公有領域）；The judgement of the dead in the presence of Osiris：Hunefer（公有領域）；Egyptian Mummy & Coffin (36601190865)：Gary Todd from Xinzheng, China（CC0）；Nile River, Aswan, Egypt：Vyacheslav Argenberg（CC BY 4.0）；Nile River and delta from orbit：Jacques Descloitres, MODIS Rapid Respons（公有領域）；Persepolis stairs of the Apadana relief：Phillip Maiwald (Nikopol)（CC BY-SA 3.0）；Ahiram Sarcophagus 1：O.Mustafin（公有領域）；All Gizah Pyramids：Ricardo Liberato（CC BY-SA 2.0）；Great Sphinx of Giza (أبو الهول)：Petar Milošević（CC BY-SA 4.0）；Closeup of Torah Scroll：Jacob Gucker（CC0）；Ziggurat of Ur Site in Nasiriyah 11：Alli Khalil（CC BY-SA 4.0）；Alexander and Bucephalus - Battle of Issus mosaic - Museo Archeologico Nazionale - Naples BW：作者不詳（公有領域）；Archimedes lever：作者不詳（公有領域）；"The School of Athens" by Raffaello Sanzio da Urbino：Raphael（公有領域）；Statue-Augustus：Till Niermann（公有領域）；Retrato de Julio César (26724093101) (cropped)：Ángel M. Felicísimo from Mérida, España（公有領域）；Rome Colosseum exterior 2：Nicholas Hartmann（CC BY-SA 4.0）；P. Oxy. I 29：Euclid（公有領域）；Roman Forum looking East panorama：Nicholas Hartmann（CC BY-SA 4.0）；Bust of Herodotus (8590559695)：Bradley  Weber（CC BY 2.0）；Portrait Bust of Homer - British Museum - Joy of Museums：Joyofmuseums（CC BY-SA 4.0）；Tombstone of Julius Alpinus Classicianus, procurator of Britannia after the Boudican revolt, found in pieces built into a tower of the Roman walls of London near Tower Hill, British Museum, London (38914731580)：Carole Raddato from FRANKFURT, Germany（CC BY-SA 2.0）；Ancient Olympia Stadium in Greece (51224128585)：dronepicr（CC BY 2.0）；Ostracon with the name of Themistocles：Marsyas（CC BY 4.0）；Acropolis Parthenon Athens Greece：Jebulon（CC0）；Forum (Pompeii) and the Vesuvio：Commonists（CC BY-SA 4.0）；Pont du Gard 004：Marc Ryckaert（CC BY 2.5）；Rosetta Stone, British Museum：APK（CC BY 4.0）；Statue of a hoplite known as Leonidas 480-470 BCE Sparta Acropolis Sanctuary of Athena Chalkioikos 01：Mary Harrsch（CC BY-SA 4.0）；Loix des Douze Tables：Drawing by Silvestre David Mirys (1742-1（公有領域）；Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382：Giovanni Domenico Tiepolo（公有領域）；Greek-Persian duel 1：作者不詳（CC0）；Capitoline she-wolf Musei Capitolini MC1181：作者不詳（公有領域）；Prise de la Bastille clean：Jean-Pierre Houël（公有領域）；Declaration of Independence (1819), by John Trumbull：John Trumbull（公有領域）；1482 Ulm Ptolemy World Map：Ptolemy（公有領域）；Lion Capital of Ashoka 3：Apurv013（CC0）；Gandhara Buddha (tnm)：World Imaging（公有領域）；Hagia Sophia February 2013 02：Arild Vågen（CC BY-SA 3.0）；Great Bath, Mohenjo-daro 20160806 ARN-09：Aakashaliraza（CC BY-SA 4.0）。</details>
 </div></footer>
 
@@ -605,7 +601,7 @@ const STEPS=[
 /* ================= 考點雷達（19 校康軒卷） ================= */
 const RADAR={
   n:19,
-  schools:'臺中向上、崇德；臺南復興；基隆銘傳；新北中平、五峰、崇林、板橋、永和、福和、蘆洲、錦和；花蓮美崙；高雄五甲、五福、大社、左營、獅甲、鼎金（皆 114 學年上學期）',
+  schools:'',
   topics:[['亞歷山大東征與希臘化',17],['漢摩拉比法典',17],['埃及宗教與木乃伊',15],['蘇美：楔形・陰曆・六十進位',14],['祆教（善惡二元・拜火）',14],
     ['屋大維・奧古斯都・羅馬和平',12],['雅典民主（限成年男性）',12],['十二表法・拉丁文',12],['埃及文化成就',11],['兩河流域地理',11],['羅馬公共建築・龐貝',11],
     ['希伯來人與猶太教',10],['尼羅河的贈禮',10],['希臘化文化',10],['波希戰爭',9],['東西羅馬的結局',8],['希臘宗教與奧運',8],['斯巴達軍事訓練',8],
@@ -1059,7 +1055,7 @@ function renderHome(app){
   const cards=['s0','l1','l2','x'];
   app.innerHTML=`
   <h2>📡 第一次段考考點雷達</h2>
-  <p class="muted">整理 ${N} 所學校的<b>康軒版</b>國三上歷史第一次段考卷：${RADAR.schools}。今年範圍以 <b>115 學年康軒課本</b>為準：序章 世界歷史的分期＋第 1 課 西亞與非洲的古代文明＋第 2 課 古希臘與古羅馬的政治及文化。</p>
+  <p class="muted">整理 ${N} 所學校的<b>康軒版</b>國三上歷史第一次段考卷。今年範圍以 <b>115 學年康軒課本</b>為準：序章 世界歷史的分期＋第 1 課 西亞與非洲的古代文明＋第 2 課 古希臘與古羅馬的政治及文化。</p>
   <div class="lessoncards" style="margin:16px 0 24px">
     ${cards.map(k=>`<div class="lc" style="background:${L[k].color}" data-k="${k}"><div><div class="n">${L[k].no}</div><div class="t">${L[k].short}</div></div><div class="d">${L[k].desc}</div></div>`).join('')}
     <div class="lc" style="background:linear-gradient(135deg,#4a3a2a,#c08a3e)" data-k="mix"><div><div class="n">綜合</div><div class="t">史料・地圖＋總測驗</div></div><div class="d">地圖代號｜成就配對表｜兩部法典｜人物牌卡｜帝國排序｜時間軸｜25 題總測驗</div></div>
@@ -1095,7 +1091,7 @@ function renderHome(app){
   <div class="card"><h3>🧭 建議闖關順序</h3>
   <p>① 每課先看 <b>🎬 動畫導覽</b>，用真實文物照片弄懂課本 → ② <b>⚡ 快問快答</b>、<b>🔗 配對</b>練熟基本分 → ③ <b>🎯 分類挑戰</b>破解張冠李戴 → ④ <b>📝 段考模擬題</b>與 <b>📊 綜合</b>史料題檢查程度，最後做<b>總測驗</b>，做完按「📤 交卷給老師」。</p></div>
   <details class="card"><summary><b>統計限制</b>（給老師看）</summary>
-  <p class="muted">19 校同版卷共 340 題（歷史部分），皆為 114 學年上學期，用的是 114 版課本；今年依 115 版課本調整範圍與用詞。主題校數為逐題人工判讀歸類，是近似值。台南復興、基隆銘傳、新北錦和、高雄五甲、高雄大社為掃描卷 OCR，年代類計數可能偏低。多數學校答案檔缺漏，正解依 115 版課本判讀。另參考他版卷 37 校的共通考點。</p></details>`;
+  </details>`;
   app.querySelectorAll('.lc').forEach(c=>c.onclick=()=>go(c.dataset.k,c.dataset.k==='mix'?undefined:'anim'));
   requestAnimationFrame(()=>setTimeout(()=>app.querySelectorAll('.fill').forEach(f=>f.style.width=f.dataset.w+'%'),60));
 }
